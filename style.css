@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap");
+:root {
+  --primary-color: #EAB586;
+  --secondary-color: #AE6343;
+}
+
+body {
+  background-color: var(--primary-color);
+  margin: 0;
+  font-family: 'Amiri';
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+.current a:visited {
+  color: black;
+}
+
+.main-bg {
+  background-image: url("../Images/Component 7 – 1.png");
+  height: 926px;
+  width: 100%;
+  position: relative;
+  background-position: 50% 50%;
+}
+
+.nav {
+  background-color: var(--secondary-color);
+  height: 3em;
+  display: block;
+  place-content: space-between;
+}
+
+.main-nav {
+  display: none;
+}
+
+.logo {
+  margin-right: 2.28125rem;
+  margin-top: 0.2em;
+}
+
+.hamburger-menu {
+  height: 1.5em;
+  margin-top: 0.75em;
+  float: left;
+  margin-left: 2.28125rem;
+}
+
+blockquote {
+  font-size: 3.125rem;
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 60%;
+  text-align: center;
+}
+
+.call-action {
+  font-size: 1.35em;
+  padding: 0.25rem 1.25rem;
+  color: black;
+  margin: 0 auto;
+  margin-top: 0.75rem;
+  width: 4.65em;
+  background-color: var(--primary-color);
+  border-radius: 5em;
+}
+
+.about-author-title {
+  font-size: 2.5em;
+  margin-right: 2.28125rem;
+  margin-top: 7.5rem;
+  display: inline-block;
+}
+
+.author-image {
+  width: 9.875em;
+  height: 9.875em;
+  margin-top: 2rem;
+  margin-left: 2.28125rem;
+  float: left;
+}
+
+.about-author-content {
+  margin: 0 2.28125rem 0 2.28125rem;
+}
+/*# sourceMappingURL=style.css.map */
